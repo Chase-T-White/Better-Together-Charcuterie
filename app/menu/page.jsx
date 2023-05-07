@@ -22,7 +22,7 @@ const Menu = () => {
   const [loading, setLoading] = useState(true);
   // const [boardSelection, setBoardSelection] = useState([]);
   const [modalShow, setModalShow] = useState(false);
-  // const [modalInfo, setModalInfo] = useState(null);
+  const [modalInfo, setModalInfo] = useState(null);
 
   useEffect(() => {
     const fetchMenu = async () => {
