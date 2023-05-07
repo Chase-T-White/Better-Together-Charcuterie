@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "feature": "Fresh Ingredients",
+    "text": "We use only the freshest ingredients to create our charcuterie boards, ensuring the best possible taste and quality for our customers.",
+    "image": "/images/cheeseIconNoBg1.png"
+  },
+  {
+    "id": "2",
+    "feature": "Locally Sourced",
+    "text": "We source our ingredients locally whenever possible, supporting our community and providing our customers with the freshest and most flavorful products.",
+    "image": "/images/meatIconNoBg1.png"
+  },
+  {
+    "id": "3",
+    "feature": "Support Small Business",
+    "text": "By choosing our company, you're supporting a small business and contributing to the growth and success of our community.",
+    "image": "/images/crackerIconNoBg1.png"
+  }
+]

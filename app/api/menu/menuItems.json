@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "item": "Individual Boxes or Cups",
+    "price": "TBD",
+    "serves": "",
+    "description": "Our Individual boxes and cups are a great for small events where you might want each person to have their own. Covid friendly and you don't have to share! Prices are determined based on the number of people for the event.",
+    "size": "",
+    "image": "/images/menu/menuInd1NoBg.png"
+  },
+  {
+    "id": "2",
+    "item": "Graze Box",
+    "price": "2999",
+    "serves": "2 People",
+    "description": "Assortment of two cheeses, two types of salami, fresh fruit, nuts, sweets, pickles or olives, jam, and crackers.",
+    "size": "Box Size - 8x8",
+    "image": "/images/menu/menuGrazeBox1.jpg"
+  },
+  {
+    "id": "3",
+    "item": "The Basic Board",
+    "price": "6500",
+    "serves": "4-5 People",
+    "description": "Just the basics - Assortment of three cheeses, two types of salami, prosciutto, fresh fruit, nuts, jam, garnishes, and crackers on the side.",
+    "size": "Round Board Size - 12 inches",
+    "image": "/images/menu/menuBasic1NoBg.png"
+  },
+  {
+    "id": "4",
+    "item": "The Better Together Board",
+    "price": "8500",
+    "serves": "10-12 People",
+    "description": "Assortment of four cheeses, two types of salami, uncured pepperoni, fresh fruit, sweets, nuts, pickles, olives, jam,  garnishes, and crackers on the side.",
+    "size": "Round Board Size - 16 inches",
+    "image": "/images/menu/menuBetter1.jpg"
+  },
+  {
+    "id": "5",
+    "item": "The Big Board",
+    "price": "9500",
+    "serves": "15-18 People",
+    "description": "Assortment of five cheeses, two types of salami, prosciutto, uncured pepperoni, fresh fruit, sweets, nuts, pickles, olives, jams, garnishes, and crackers on the side.",
+    "size": "Round Board Size - 18 inches",
+    "image": "/images/menu/menuBig1.jpg"
+  },
+  {
+    "id": "6",
+    "item": "The Party Board",
+    "price": "25000",
+    "serves": "50 People",
+    "description": "Assortment of six cheeses, three types of salami, prosciutto, uncured pepperoni, dried fruit, nuts, pickles, olives, jams, garnishes, and crackers on the side.",
+    "size": "*Rental Only* Rectangular Board Size - 24x16 inches",
+    "image": "/images/menu/menuParty1.jpg"
+  },
+  {
+    "id": "7",
+    "item": "Graze Table",
+    "price": "TBD",
+    "serves": "",
+    "description": "Our Graze Tabes are great for a larger event, such as a wedding appetizer or for a work event - can accommodate 20 to 200 people. Prices are determined based on the number of people for the event.",
+    "size": "",
+    "image": "/images/menu/menuGraze1.jpg"
+  }
+]

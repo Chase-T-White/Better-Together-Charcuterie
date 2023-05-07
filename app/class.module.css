@@ -1,0 +1,15 @@
+/******** Card Styles ********/
+
+.card_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.card_price {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: var(--primary-color);
+}

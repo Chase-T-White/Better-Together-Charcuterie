@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "location": "The Front Porch",
+    "address": "109 W. 1st Street, Laurel, MT",
+    "when": "May 13, 2023",
+    "time": "6:30 PM",
+    "price": "$45",
+    "description": "Join us for a charcuterie workshop headed by our very own Haley White! Registration is required and the deadline is May 5th. All supplies and food is provided to create your very own 2 person charcuterie plate. Food may differ from those pictured.",
+    "image": "/images/classes/classes3.jpg",
+    "available": false
+  },
+  {
+    "id": "2",
+    "location": "Craft Local",
+    "address": "67 N 5th Street, Billings, MT",
+    "when": "July 12, 2023",
+    "time": "6:00 PM",
+    "price": "$50",
+    "description": "Join us at Craft Local for an instructed charcuterie board class with Better Together Charcuterie. Learn how to perfectly pair meats & cheeses together while enjoying local Montana made brews and wines. We will wrap up the evening enjoying our boards with LIVE music from Jessica Allestad!",
+    "image": "/images/classes/classes4.jpg",
+    "available": true
+  },
+  {
+    "id": "3",
+    "location": "The Flat Top",
+    "address": "546 Higgs Blv, Billings, MT",
+    "when": "August 16, 2023",
+    "time": "6:00 PM",
+    "price": "$45",
+    "description": "Indulge in the art of charcuterie with The Flat Top's upcoming workshop, led by our very own Haley White! Join us for a hands-on experience creating your very own 2-person charcuterie plate. All supplies and food will be provided.",
+    "image": "/images/classes/classes6.jpg",
+    "available": true
+  }
+]

@@ -1,0 +1,94 @@
+.menu__itemsList_container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.menu__itemsList {
+  width: 33%;
+  text-align: center;
+  border-left: 2px solid var(--background-shade1);
+  border-right: 2px solid var(--background-shade1);
+  padding-inline: 2rem;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  padding-block: 3rem;
+}
+
+.menu__item {
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+.menu__item:last-child {
+  margin-bottom: 0;
+}
+
+.item__name {
+  font-size: 2.5rem;
+}
+
+.menu__item:hover .item__name,
+.menu__item:focus .item__name {
+  color: var(--primary-color);
+}
+
+.item__info {
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu__item:nth-child(odd) .item__info {
+  right: 5%;
+}
+
+.menu__item:nth-child(even) .item__info {
+  left: 5%;
+}
+
+.item__info_description {
+  font-size: 1.3rem;
+  transition: var(--transition-primary);
+}
+
+.item__info_price {
+  color: var(--primary-color);
+  display: block;
+  margin-bottom: 2rem;
+  transition: var(--transition-primary);
+}
+
+.item__img_container {
+  display: inline-block;
+  position: absolute;
+  transform: translateX(-50%);
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.menu__item:nth-child(odd) .item__img_container {
+  left: 16%;
+}
+
+.menu__item:nth-child(even) .item__img_container {
+  right: -10%;
+}
+
+.item__size {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 400px;
+  text-shadow: 0 0 5px #fff;
+  background-image: url(/images/menu/menuRibbon2.svg);
+  background-size: cover;
+  background-position: center;
+}
