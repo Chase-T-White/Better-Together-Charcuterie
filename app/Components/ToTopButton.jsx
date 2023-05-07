@@ -5,7 +5,11 @@ import { BsChevronUp } from "react-icons/bs";
 
 const ToTopButton = () => {
   const [showButton, setShowButton] = useState(false);
-  let windowHeight = window.innerHeight;
+  let windowHeight;
+
+  useEffect(() => {
+    windowHeight = window.innerHeight;
+  });
 
   useEffect(() => {
     const handleScrollButtonVisibility = () => {
