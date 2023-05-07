@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import styles from "../../home.module.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

@@ -1,3 +1,13 @@
+/* Specialty Boards */
+
+.cards_container {
+  flex-wrap: nowrap !important;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+
+/* Board Selection */
+
 .menu__itemsList_container {
   display: flex;
   justify-content: center;

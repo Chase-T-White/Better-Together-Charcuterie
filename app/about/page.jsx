@@ -6,15 +6,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "next/image";
 import ownerMain from "/public/images/about/ownerOnChair.jpg";
-import owner2 from "/public/images/about/ownerNGrapes.jpg";
 
 const About = () => {
   return (
-    <main>
-      <Container>
-        <Row>
-          <Col>
-            <Image src={ownerMain} alt="Haley White" width={750} height={500} />
+    <main className="h-100" style={{ marginTop: 10 + "rem" }}>
+      <Container fluid="sm" className="h-100">
+        <Row className="h-100 align-items-center">
+          <Col className="mb-5">
+            <Image src={ownerMain} alt="Haley White" width={600} height={400} />
           </Col>
           <Col>
             <p>

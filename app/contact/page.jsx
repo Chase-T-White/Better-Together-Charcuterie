@@ -9,12 +9,12 @@ import Container from "react-bootstrap/Container";
 
 const Contact = () => {
   return (
-    <main className="contact">
-      <header className="gallery-header">
+    <main className="contact" style={{ marginTop: 10 + "rem" }}>
+      <header className="gallery-header mb-5">
         <h2 className="text-center">Contact</h2>
       </header>
-      <Container>
-        <Form className="contact__form">
+      <Container className="d-flex justify-content-center">
+        <Form className="contact__form" style={{ maxWidth: 800 + "px" }}>
           <Row>
             <Col>
               <Form.Label>First Name *</Form.Label>

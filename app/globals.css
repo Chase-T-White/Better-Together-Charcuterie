@@ -316,6 +316,32 @@ h3 {
   transform: scale(0.8);
 }
 
+/* ToTopButton */
+
+#toTopButton {
+  display: block;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 2rem;
+  z-index: 100;
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 100vw;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#toTopButton:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.topButtonIcon {
+  font-size: 1.4rem;
+}
+
 /* Page Heading */
 
 .page-heading {
@@ -355,4 +381,22 @@ h3 {
 .card-img-top {
   object-fit: cover;
   object-position: center;
+}
+
+/* Footer */
+
+footer {
+  justify-content: end;
+  margin-top: 15rem;
+  padding-bottom: 2rem;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-icon:hover {
+  color: var(--primary-color-hover);
 }

@@ -6,21 +6,23 @@ import TransitionQuote from "./Components/home/TransitionQuote";
 import Features from "./Components/home/Features";
 import Classes from "./Components/home/Classes";
 import Founders from "./Components/home/Founders";
+import Newsletter from "./Components/home/Newsletter";
+import ToTopButton from "./Components/ToTopButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main className="position-relative">
+      <ToTopButton />
       <Hero />
       <Founders />
       <EventSpice />
-      {/* Menu and Customizable */}
       <div className={styles.half_pill__down}></div>
       <TransitionQuote />
       <Features />
       <Classes />
-      {/* From the owner */}
+      <Newsletter />
     </main>
   );
 }

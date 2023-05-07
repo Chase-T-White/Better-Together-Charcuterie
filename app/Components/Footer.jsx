@@ -3,14 +3,18 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
 import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer>
-      <Container>
-        <Row className="align-items-center">
+      <Container fluid="md">
+        <Row>
           <Col>
             Better Together Charcuterie &copy; {new Date().getFullYear()} All
             Rights Reserved
@@ -21,14 +25,20 @@ const Footer = () => {
               className="me-3"
               target={"_blank"}
             >
-              <AiFillFacebook />
+              <AiFillFacebook className="footer-icon" />
             </Link>
             <Link
               href="https://www.instagram.com/BetterTogetherCharcuterie/"
               className="me-3"
               target={"_blank"}
             >
-              <AiFillInstagram />
+              <AiFillInstagram className="footer-icon" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/BetterTogetherCharcuterie406"
+              target={"_blank"}
+            >
+              <AiFillLinkedin className="footer-icon" />
             </Link>
           </Col>
         </Row>
